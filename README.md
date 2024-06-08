@@ -1,5 +1,7 @@
 # Reinforcement Learning From Human Feedback
 
+[Complete](https://learn.deeplearning.ai/accomplishments/0e4bfc53-1426-4acd-b7e4-ee3be9af7591?usp=sharing)
+
 Reinforcement learning (RL) refers to a sub-field of machine learning that enables AI-based systems to take actions in a dynamic environment through trial and error to maximize the collective rewards based on the feedback generated for individual activities.
 
 Proximal policy optimization (PPO) is an algorithm in the field of reinforcement learning that trains a computer agent's decision function to accomplish difficult tasks.
@@ -72,3 +74,17 @@ Though RLHF models have demonstrated impressive results in training AI agents fo
 “troll” archetypes and the different ways they distort feedback data.
 
 - RLHF risks overfitting and bias. If human feedback is gathered from an overly narrow demographic, the model may demonstrate performance issues when used by different groups or prompted on subject matters for which the human evaluators hold certain biases.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzGRBOV04uIx3_DPA8OnYd0rs2BjMq21tWA&usqp=CAU)
+
+Reinforcement learning from human feedback (RLHF) is a tuning feature on Google Cloud that uses human feedback to fine-tune foundation models like large language models (LLMs). RLHF is especially useful in industries where accuracy or customer satisfaction is important, such as healthcare, finance, and e-commerce. 
+RLHF is recommended when a model's output is complex and difficult to describe. For example, RLHF can help with ambiguous tasks like writing a poem about the ocean by offering a human two poems to choose from. RLHF tuning is also a good option for question answering, summarizing complex content, and content creation. 
+RLHF tuning consists of two phases: reward modeling and reinforcement learning:
+1. **Reward modeling**
+Data is collected in the form of comparisons by feeding the same prompt into one or more LLMs to create multiple responses.
+
+2. **Reinforcement learning**
+Humans provide feedback in the form of choices between different output options. These choices provide better data than labeled prompts, which are used by supervised fine-tuning, to tune a model that produces output that's difficult to describe. Humans can also more accurately review the model responses for bias, toxic content, or other dimensions, teaching the model to avoid inappropriate outputs. 
+
+
+
